@@ -1,4 +1,4 @@
-# terraform-aws-vcppublished
+# terraform-aws-vpcpublished
 
 This terraform module deploys an AWS VPC with subnets and optionally an internet gateway.
 
