@@ -1,10 +1,15 @@
 terraform {
   required_providers {
+    assert = {
+      source  = "hashicorp/assert"
+      version = "~> 0.16.0"
+    }
     aws = {
       source  = "hashicorp/aws"
-      version = "~> 5.0"
+      version = "~> 5.99.1"
     }
   }
+  required_version = ">= 1.8"
 }
 
 resource "aws_vpc" "main" {
